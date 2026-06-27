@@ -62,8 +62,6 @@ The implementation includes DHCP services for automatic IP assignment, Wireless 
 
 ![Topology 1](images/topology-1.jpg)
 
-![Topology 2](images/topology-2.jpg)
-
 ---
 
 # ⚙ Configuration Preview
@@ -117,7 +115,6 @@ cisco-school-network
 │
 └── images/
     ├── topology-1.jpg
-    ├── topology-2.jpg
     ├── dhcp-binding-1.jpg
     ├── dhcp-binding-2.jpg
     ├── dhcp-pool.jpg
