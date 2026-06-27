@@ -48,6 +48,15 @@ cisco-school-network/
 ├── School_Wide_Network.pdf
 ├── School_Wide_Network.pkt
 └── images/
+    ├── topology-1.jpg
+    ├── topology-2.jpg
+    ├── dhcp-binding-1.jpg
+    ├── dhcp-binding-2.jpg
+    ├── dhcp-pool.jpg
+    ├── access-point-config.jpg
+    ├── ping-test-1.jpg
+    └── ping-test-2.jpg
+    
 
 🚀 How to Run
 Install Cisco Packet Tracer.
