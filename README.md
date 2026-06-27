@@ -31,6 +31,14 @@ The implementation includes DHCP services for automatic IP assignment, Wireless 
 - IPv4 network segmentation
 - Cisco Packet Tracer simulation
 
+# 📌 Project Highlights
+
+- 🌐 Designed a school-wide network using multiple IPv4 subnets.
+- 📡 Configured Wireless Access Points for wireless connectivity.
+- 📥 Implemented DHCP for automatic IP address allocation.
+- 🔄 Verified end-to-end communication using ICMP (Ping).
+- 🛠 Developed and tested using Cisco Packet Tracer.
+
 ---
 
 # 🛠 Technologies
