@@ -1,164 +1,97 @@
 # Cisco School Network
 
-![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Networking](https://img.shields.io/badge/Networking-LAN-success?style=for-the-badge)
-![DHCP](https://img.shields.io/badge/DHCP-Configured-blue?style=for-the-badge)
-![Wireless](https://img.shields.io/badge/Wireless-Access%20Point-orange?style=for-the-badge)
-![IPv4](https://img.shields.io/badge/IPv4-Multi%20Subnet-red?style=for-the-badge)
-
-A Cisco Packet Tracer simulation project that demonstrates the implementation of a **school-wide network infrastructure** with multiple network segments, automatic IP address allocation, wireless connectivity, and end-to-end communication testing.
+A Cisco Packet Tracer project that simulates a school-wide network with multiple IPv4 subnets, DHCP services, wireless access points, and end-to-end connectivity testing.
 
 ---
 
-# 📖 Project Overview
+## 🌐 Network Topology
 
-This project was developed to simulate a real-world school network environment using Cisco Packet Tracer.
+<img src="images/topology-1.jpg" alt="Network Topology Part 1" width="100%">
 
-The network is divided into multiple sections including classrooms, laboratories, teacher rooms, management offices, and server rooms. Every segment is assigned its own subnet while maintaining communication across the network.
-
-The implementation includes DHCP services for automatic IP assignment, Wireless Access Point configuration, and successful connectivity verification using ICMP (Ping).
+<img src="images/topology-2.jpg" alt="Network Topology Part 2" width="100%">
 
 ---
 
-# ✨ Features
+## Project Goal
 
-- School-wide network topology
-- Multiple subnet implementation
-- DHCP Server configuration
-- Automatic IP Address Assignment
+The objective of this project is to design and simulate a reliable school network that supports multiple departments while maintaining organized network segmentation and automatic IP address allocation.
+
+The network includes laboratories, classrooms, teacher rooms, management offices, and a server room connected through a centralized infrastructure.
+
+---
+
+## What Was Implemented
+
+- Multiple IPv4 subnets for different school departments
+- DHCP configuration for automatic IP address assignment
 - Wireless Access Point configuration
-- End-to-End connectivity testing
-- IPv4 network segmentation
-- Cisco Packet Tracer simulation
-
-# 📌 Project Highlights
-
-- 🌐 Designed a school-wide network using multiple IPv4 subnets.
-- 📡 Configured Wireless Access Points for wireless connectivity.
-- 📥 Implemented DHCP for automatic IP address allocation.
-- 🔄 Verified end-to-end communication using ICMP (Ping).
-- 🛠 Developed and tested using Cisco Packet Tracer.
+- End-to-end communication testing using ICMP (Ping)
+- Centralized school network simulation using Cisco Packet Tracer
 
 ---
 
-# 🛠 Technologies
+## Network Segmentation
 
-- Cisco Packet Tracer
-- IPv4 Addressing
-- DHCP
-- Wireless Access Point
-- LAN Networking
-- ICMP (Ping)
-
----
-
-# 🌐 Network Segmentation
-
-| Network | Subnet | Purpose |
-|----------|---------|---------|
-| Management | 192.168.99.0/24 | Network Management & Server |
-| Laboratory | 192.168.40.0/24 | Computer Laboratory |
-| Teacher Room | 192.168.30.0/24 | Teachers & Staff |
-| Classroom Right | 192.168.20.0/24 | Students |
-| Classroom Left | 192.168.10.0/24 | Students |
+| Network | Subnet |
+|----------|---------|
+| Management | 192.168.99.0/24 |
+| Laboratory | 192.168.40.0/24 |
+| Teacher Room | 192.168.30.0/24 |
+| Classroom Right | 192.168.20.0/24 |
+| Classroom Left | 192.168.10.0/24 |
 
 ---
 
-# 🗺 Network Topology
+## Configuration Preview
 
-### Overall Network Design
+### DHCP Pool
 
-![Topology 1](images/topology-1.jpg)
+<img src="images/dhcp-pool.jpg" width="100%">
 
----
-
-# ⚙ Configuration Preview
-
-## DHCP Binding
-
-Automatic IP Address allocation successfully assigned to connected devices.
-
-![DHCP Binding 1](images/dhcp-binding-1.jpg)
-
-![DHCP Binding 2](images/dhcp-binding-2.jpg)
+Configured DHCP pools for each network segment to automate IP address allocation.
 
 ---
 
-## DHCP Pool
+### Wireless Access Point
 
-Configured DHCP pools for every network segment.
+<img src="images/access-point-config-1.jpg" width="100%">
 
-![DHCP Pool](images/dhcp-pool.jpg)
+<img src="images/access-point-config-2.jpg" width="100%">
 
----
-
-## Wireless Access Point
-
-Wireless Access Point configured to provide wireless connectivity within the school environment.
-
-![Access Point](images/access-point-config-1.jpg)
-
-![Access Point](images/access-point-config-2.jpg)
+Wireless connectivity was configured to allow devices to connect automatically within their designated network.
 
 ---
 
-## Connectivity Testing
+### Connectivity Test
 
-End-to-end communication successfully verified using ICMP Ping.
+<img src="images/ping-test-1.jpg" width="100%">
 
-![Ping Test 1](images/ping-test-1.jpg)
+<img src="images/ping-test-2.jpg" width="100%">
 
-![Ping Test 2](images/ping-test-2.jpg)
-
----
-
-# 📂 Repository Structure
-
-```text
-cisco-school-network
-│
-├── README.md
-├── School_Wide_Network.pdf
-├── School_Wide_Network.pkt
-│
-└── images/
-    ├── topology-1.jpg
-    ├── dhcp-binding-1.jpg
-    ├── dhcp-binding-2.jpg
-    ├── dhcp-pool.jpg
-    ├── access-point-config-1.jpg
-    ├── access-point-config-2.jpg
-    ├── ping-test-1.jpg
-    └── ping-test-2.jpg
-```
+ICMP Ping tests confirm successful communication between devices across different network segments.
 
 ---
 
-# 🚀 How to Run
+## Running the Project
 
-1. Install Cisco Packet Tracer.
-2. Open **School_Wide_Network.pkt**.
-3. Wait until the simulation loads completely.
-4. Verify DHCP address allocation.
-5. Test communication between devices using **Ping**.
-6. Review the wireless network configuration.
-
----
-
-# 📄 Documentation
-
-The complete project documentation is available in:
-
-- **School_Wide_Network.pdf**
+1. Open `School_Wide_Network.pkt` using Cisco Packet Tracer.
+2. Wait until the simulation finishes loading.
+3. Verify DHCP address assignment.
+4. Test connectivity using Ping.
+5. Review the wireless and DHCP configurations.
 
 ---
 
-# 👨‍💻 Authors
+## Files
+
+- `School_Wide_Network.pkt` — Cisco Packet Tracer project
+- `School_Wide_Network.pdf` — Project documentation
+- `images/` — Screenshots used in this repository
+
+---
+
+## Authors
 
 - Aldi Syarif Alhakim
 - Alezuna M. Nadhif Pohan
 - Muhamad Ihsad Rasyad
-
----
-
-## ⭐ If you found this project interesting, feel free to give it a star.
