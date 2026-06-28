@@ -4,11 +4,9 @@ A Cisco Packet Tracer project that simulates a school-wide network with multiple
 
 ---
 
-## 🌐 Network Topology
+## Network Topology
 
 <img src="images/topology-1.jpg" alt="Network Topology Part 1" width="100%">
-
-<img src="images/topology-2.jpg" alt="Network Topology Part 2" width="100%">
 
 ---
 
